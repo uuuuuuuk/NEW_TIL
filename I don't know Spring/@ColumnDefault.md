@@ -15,3 +15,13 @@ private Integer attemptCount;
 한마디로 위의 코드는 처음 시도횟수의 기본 값을 단순히 1부터 시작하게 하는 코드였던것..
 
 앞으로도 모르는게 있다면 바로바로 찾아보면서 궁금증을 남겨두지 않는 개발자가 되어야겠다고 생각했다.
+
+`+`
+
+추가로 아래에서 다음과 같은 코드도 발견할 수 있었다.
+
+```java
+    public void increaseAttemptCount() {
+        this.attemptCount += 1;
+    }
+```
